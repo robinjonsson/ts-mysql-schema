@@ -1,0 +1,45 @@
+'use strict'
+Object.defineProperty(exports, '__esModule', { value: true })
+var SqlDataType
+;(function(SqlDataType) {
+  SqlDataType['CHAR'] = 'char'
+  SqlDataType['VARCHAR'] = 'varchar'
+  SqlDataType['TEXT'] = 'text'
+  SqlDataType['TINYTEXT'] = 'tinytext'
+  SqlDataType['MEDIUMTEXT'] = 'mediumtext'
+  SqlDataType['LONGTEXT'] = 'longtext'
+  SqlDataType['TIME'] = 'time'
+  SqlDataType['GEOMETRY'] = 'geometry'
+  SqlDataType['SET'] = 'set'
+  SqlDataType['ENUM'] = 'enum'
+  SqlDataType['INTEGER'] = 'integer'
+  SqlDataType['INT'] = 'int'
+  SqlDataType['TINYINT'] = 'tinyint'
+  SqlDataType['SMALLINT'] = 'smallint'
+  SqlDataType['MEDIUMINT'] = 'mediumint'
+  SqlDataType['BIGINT'] = 'bigint'
+  SqlDataType['DOUBLE'] = 'double'
+  SqlDataType['DECIMAL'] = 'decimal'
+  SqlDataType['NUMERIC'] = 'numeric'
+  SqlDataType['FLOAT'] = 'float'
+  SqlDataType['YEAR'] = 'year'
+  SqlDataType['JSON'] = 'json'
+  SqlDataType['DATE'] = 'date'
+  SqlDataType['DATETIME'] = 'datetime'
+  SqlDataType['TIMESTAMP'] = 'timestamp'
+  SqlDataType['TINYBLOB'] = 'tinyblob'
+  SqlDataType['MEDIUMBLOB'] = 'mediumblob'
+  SqlDataType['LONGBLOB'] = 'longblob'
+  SqlDataType['BLOB'] = 'blob'
+  SqlDataType['BINARY'] = 'binary'
+  SqlDataType['VARBINARY'] = 'varbinary'
+  SqlDataType['BIT'] = 'bit'
+})((SqlDataType = exports.SqlDataType || (exports.SqlDataType = {})))
+var TsDataType
+;(function(TsDataType) {
+  TsDataType['BOOLEAN'] = 'boolean'
+  TsDataType['STRING'] = 'string'
+  TsDataType['NUMBER'] = 'number'
+  TsDataType['DATE'] = 'date'
+})((TsDataType = exports.TsDataType || (exports.TsDataType = {})))
+//# sourceMappingURL=data-types.js.map
