@@ -81,7 +81,7 @@ export class MySQLSchema {
   private async queryTables(): Promise<SchemaTables> {
     const results = await this.query<QueryTable>(
       sql`
-        SELECT table_name FROM information_schema.columns
+        SELECT table_name as table_name FROM information_schema.columns
         WHERE table_schema = ${this.config.schema}
         GROUP BY table_name`
     )
