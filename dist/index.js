@@ -50,7 +50,7 @@ class MySQLSchema {
   }
   async queryColumns(tableName) {
     const columns = await this.query(sql_template_tag_1.default`
-        SELECT column_name, data_type, is_nullable, column_default, column_key
+        SELECT column_name as column_name, data_type as data_type, is_nullable as is_nullable, column_default as column_default, column_key as column_key
         FROM information_schema.columns
         WHERE table_name = ${tableName}
         AND table_schema = ${this.config.schema}`)
