@@ -20,14 +20,13 @@ export function sqlTypeToTsType(dataType: SqlDataType): TsDataType {
     case SqlDataType.BIT:
     case SqlDataType.JSON:
     case SqlDataType.ENUM:
+    case SqlDataType.BIGINT:
       return TsDataType.STRING
     case SqlDataType.TINYINT:
-      return TsDataType.BOOLEAN
     case SqlDataType.INTEGER:
     case SqlDataType.INT:
     case SqlDataType.SMALLINT:
     case SqlDataType.MEDIUMINT:
-    case SqlDataType.BIGINT:
     case SqlDataType.DOUBLE:
     case SqlDataType.DECIMAL:
     case SqlDataType.NUMERIC:
