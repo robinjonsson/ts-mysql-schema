@@ -21,14 +21,13 @@ function sqlTypeToTsType(dataType) {
     case data_types_1.SqlDataType.BIT:
     case data_types_1.SqlDataType.JSON:
     case data_types_1.SqlDataType.ENUM:
+    case data_types_1.SqlDataType.BIGINT:
       return data_types_1.TsDataType.STRING
     case data_types_1.SqlDataType.TINYINT:
-      return data_types_1.TsDataType.BOOLEAN
     case data_types_1.SqlDataType.INTEGER:
     case data_types_1.SqlDataType.INT:
     case data_types_1.SqlDataType.SMALLINT:
     case data_types_1.SqlDataType.MEDIUMINT:
-    case data_types_1.SqlDataType.BIGINT:
     case data_types_1.SqlDataType.DOUBLE:
     case data_types_1.SqlDataType.DECIMAL:
     case data_types_1.SqlDataType.NUMERIC:
